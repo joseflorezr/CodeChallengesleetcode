@@ -1,1 +1,5 @@
-Base exercises https://leetcode.com/
+Base exercises https://leetcode.com/, If you want to add a new excercise, you should add it to the appsettings.json (to make it visible), then add the case into challenge implementation project.
+At the appsettings.json, the options section contains all the items, the values are:
+1. id: option number to be choosen by the user
+2. description: brief description of the case to show in the menu
+3. ClassName: it's the class that solves the case, that must be located into challenge implementation project (cases folder).
